@@ -199,7 +199,7 @@ function GameRoom({ room, setInRoom, userName, host, setHost, gamesWon, _id }) {
           <h2>
             <span className="text-md uppercase" style={{color:"#ECBE07"}}>{userName}</span> &nbsp; &nbsp;
             <button className="text-white  hover:text-blue-700" onClick={leaveRoom}>
-              Leave Room: <span style={{color:"#ECBE07"}}>{room}</span>
+              Leave Room TEST: <span style={{color:"#ECBE07"}}>{room}</span>
             </button>
           </h2>
         </div>
